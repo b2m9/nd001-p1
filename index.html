@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head lang="en">
+<html lang="en">
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <title>Template: John Doe</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link href="https://overpass-30e2.kxcdn.com/overpass.css" rel="stylesheet" />
     </head>
+
     <body>
         <div class="container">
-            <div class="row">
+            <div class="row header">
                 <div class="col-xs-4">
+                    <!-- TODO: replace logo here -->
                     <img src="https://placehold.it/100x100" class="img-responsive" alt="Logo">
                 </div>
 
                 <header class="col-xs-8">
-                    <h1 class="text-right">John Doe</h1>
+                    <h1 class="text-right header-title">John Doe</h1>
                     <p class="text-right">Just another tagline.</p>
                 </header>
 
-            </div>
+            </div> <!-- end header row -->
 
-            <div class="row">
+            <div class="row hero">
                 <div class="col-xs-12">
-                    <img src="https://placehold.it/1000x250" class="img-responsive" alt="Hero Image">
+                    <img height="2500 px" width="1140px" src="https://placehold.it/1140x250" class="img-responsive" alt="Hero Image">
                 </div>
-            </div>
+            </div> <!-- end header row -->
 
             <section class="row">
                 <div class="col-xs-12">
@@ -31,35 +37,39 @@
                 </div>
 
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <img class="img-thumbnail img-responsive center-block" src="https://placehold.it/200x150">
+                    <figure>
+                        <img class="img-thumbnail img-responsive center-block" src="https://placehold.it/200x150" alt="Project Preview">
+                        <figcaption>
+                            <h3 class="text-center text-uppercase">Project Title</h3>
+                            <p class="text-center"><a href="#">Link to project</a></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <img class="img-thumbnail img-responsive center-block" src="https://placehold.it/200x150" alt="Project Preview">
                     <h3 class="text-center text-uppercase">Project Title</h3>
                     <p class="text-center"><a href="#">Link to project</a></p>
                 </div>
 
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <img class="img-thumbnail img-responsive center-block" src="https://placehold.it/200x150">
+                    <img class="img-thumbnail img-responsive center-block" src="https://placehold.it/200x150" alt="Project Preview">
                     <h3 class="text-center text-uppercase">Project Title</h3>
                     <p class="text-center"><a href="#">Link to project</a></p>
                 </div>
 
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <img class="img-thumbnail img-responsive center-block" src="https://placehold.it/200x150">
+                    <img class="img-thumbnail img-responsive center-block" src="https://placehold.it/200x150" alt="Project Preview">
                     <h3 class="text-center text-uppercase">Project Title</h3>
                     <p class="text-center"><a href="#">Link to project</a></p>
                 </div>
+            </section> <!-- end content row -->
 
-                <div class="col-md-3 col-sm-4 col-xs-6">
-                    <img class="img-thumbnail img-responsive center-block" src="https://placehold.it/200x150">
-                    <h3 class="text-center text-uppercase">Project Title</h3>
-                    <p class="text-center"><a href="#">Link to project</a></p>
-                </div>
-            </section>
-
-            <div class="row">
+            <div class="row footer">
                 <div class="col-xs-12">
-                    <p>Made with Love, GitHub, and c9.io</p>
+                    <p class="text-right footer-text">Made with Love, GitHub, and c9.io</p>
                 </div>
-            </div>
+            </div> <!-- end footer row -->
         </div>
 
     </body>
